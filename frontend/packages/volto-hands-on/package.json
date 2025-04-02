@@ -19,6 +19,9 @@
   "publishConfig": {
     "access": "public"
   },
+  "addons": [
+    "@kitconcept/volto-light-theme"
+  ],
   "scripts": {
     "i18n": "rm -rf build/messages && NODE_ENV=production i18n --addon",
     "dry-release": "release-it --dry-run",
@@ -26,7 +29,9 @@
     "release-major-alpha": "release-it major --preRelease=alpha",
     "release-alpha": "release-it --preRelease=alpha"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@kitconcept/volto-light-theme": "6.0.0-alpha.21"
+  },
   "peerDependencies": {
     "react": "18.2.0",
     "react-dom": "18.2.0"
