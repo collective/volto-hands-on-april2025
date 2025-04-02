@@ -23,8 +23,8 @@ Ensure you have the following installed:
 1. Clone the repository:
 
 ```shell
-git clone git@github.com:collective/volto-hands-on.git
-cd volto-hands-on
+git clone git@github.com:collective/volto-hands-on-april2025.git
+cd volto-hands-on-april2025
 ```
 
 2. Install both Backend and Frontend:
