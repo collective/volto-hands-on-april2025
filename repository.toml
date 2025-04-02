@@ -1,0 +1,35 @@
+[repository]
+name = "volto-hands-on"
+managed_by_uv = false
+changelog = "CHANGELOG.md"
+version = "version.txt"
+compose = "docker-compose.yml"
+
+[repository.towncrier]
+section = "Project"
+settings = "towncrier.toml"
+
+[backend]
+path = "backend"
+
+[backend.package]
+name = "voltohandson"
+path = "backend"
+changelog = "backend/CHANGELOG.md"
+towncrier_settings = "backend/pyproject.toml"
+publish = false
+
+[frontend]
+path = "frontend"
+
+[frontend.package]
+name = "volto-hands-on"
+path = "frontend/packages/volto-hands-on"
+changelog = "frontend/packages/volto-hands-on/CHANGELOG.md"
+towncrier_settings = "frontend/packages/volto-hands-on/towncrier.toml"
+publish = false
+
+[cookieplone]
+template = "project"
+template_version = "b57db6b8e34ab9b8157c45be858e94c6cd9cdbfa"
+generated_date = "2025-04-02 09:48:16"
